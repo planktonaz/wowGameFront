@@ -1,0 +1,348 @@
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.j-start {
+    justify-content: start;
+}
+
+.j-end {
+    justify-content: end;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.a-start {
+    align-content: start;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.a-end {
+    align-content: end;
+}
+
+.gap10 {
+    gap: 10px
+}
+
+.gap20 {
+    gap: 20px
+}
+
+.gap30 {
+    gap: 30px
+}
+
+.gap40 {
+    gap: 40px
+}
+
+.gap50 {
+    gap: 50px
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.grow1 {
+    flex: 1
+}
+
+.grow2 {
+    flex: 2
+}
+
+.grow3 {
+    flex: 3
+}
+
+.grow4 {
+    flex: 4
+}
+
+.grow5 {
+    flex: 5
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.p5 {
+    padding: 5px;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+.p-1 {
+    padding: 10px;
+}
+
+.p-2 {
+    padding: 20px;
+}
+
+.m-1 {
+    margin: 10px;
+}
+
+.m-2 {
+    margin: 20px;
+}
+
+.mt5 {
+    margin-top: 5px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mb5 {
+    margin-bottom: 5px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.border {
+    border: 1px solid dimgray;
+}
+
+.rounded {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+div {
+    /*border: 1px solid black;*/
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0 50px 50px 50px;
+}
+
+.bg {
+    background-image: url("http://localhost:8000/images/bg2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.bgAlpha {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+}
+
+.box * {
+    pointer-events: none;
+}
+
+.box:hover {
+    cursor: pointer;
+    border: 4px solid springgreen;
+}
+
+.onlineBox {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.onlineBox img {
+    width: 100%;
+    height: 100%;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    background-color: rgba(255, 255, 255, 0.6);
+
+    color: black;
+    font-weight: bold;
+    text-shadow: 0 0 0.5em white, 0 0 0.5em white, 0 0 0.5em white;
+}
+
+.cell img {
+    width: 100%;
+    height: 100%;
+}
+
+.cell:hover {
+    cursor: pointer;
+    border: 4px solid springgreen;
+}
+
+.item {
+    width: 170px;
+    height: 170px;
+    color: black;
+    font-weight: bold;
+    text-shadow: 0 0 0.1em white, 0 0 0.5em white, 0 0 0.5em white;
+}
+
+.item > div {
+    width: 100%;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.startBtn {
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.cells {
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 50px 50px;
+}
+
+.startPage {
+    padding: 0 50px 50px 50px;
+    height: 100vh;
+}
+
+.leftSide {
+    height: 85vh;
+    overflow: auto;
+}
+
+.rightSide {
+    height: 85vh;
+    overflow: auto;
+}
+
+.inventory {
+    height: 200px;
+    overflow: auto;
+}
+
+.modalWrapper {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    background-color: #393939;
+    z-index: 99;
+}
+
+.form {
+    background-color: white;
+    padding: 50px;
+    z-index: 99;
+}
+
+.arena {
+}
+
+.battleUserImg {
+    width: 100%;
+}
+
+.battleUserImg img {
+    width: 100%;
+
+}
+
+.battleUsername {
+    color: black;
+    font-weight: bold;
+    text-shadow: 0 0 0.1em white, 0 0 0.5em white, 0 0 0.5em white;
+}
+
+.hp {
+    width: 100%;
+    height: 30px;
+    border: 1px solid dimgray;
+}
+
+.hp > div {
+    height: 100%;
+    background-color: springgreen;
+}
+
+.genBtn {
+    color: #1e293b;
+    font-size: 15px;
+    padding: 5px 5px 5px 5px;
+    margin: 1px;
+}
+
+.attackBtn {
+    width: 200px;
+    font-size: 20px;
+    padding: 15px 10px 15px 10px;
+    margin: 5px;
+}
